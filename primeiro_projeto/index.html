@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Página</title>
+        <meta charset="utf-8">
+
+    </head>
+    <body>
+        <a href="#">
+            Home
+        </a> 
+        /
+        <a href="contacto.html">
+            Contacto
+        </a>
+        <h2>Página principal</h2>
+        <p>
+            Vivamus vulputate odio lorem, et laoreet enim maximus et. Donec feugiat mi at interdum mollis. Fusce aliquam egestas nisi ut imperdiet. Mauris non rhoncus dolor. Donec lorem dolor, consectetur in imperdiet at, mattis ut justo. Phasellus a ligula molestie, eleifend nibh vitae, rhoncus ligula. In pellentesque nisi vel dui semper ornare. Phasellus id semper nibh, non maximus ante.
+        </p>
+
+        <table border="2" width="100%" >
+            <tr>
+                <th>Código</th>
+                <th>Produto</th>
+                <th>Preço</th>
+                <th>Imagem</th>
+                <th>Especificações</th>
+            </tr>
+            <tr>
+                <td>001</td>
+                <td>Notebook</td>
+                <td><a href="#">Link</a></td>
+                <td><img src="images/portatil_01.jpg" width="100"></td>
+                <td>€ 2.500,00</td>
+
+            </tr>
+            <tr>
+                <td>002</td>
+                <td>Tablet</td>
+                <td><a href="#">Link</a></td>
+                <td><img src="images/tablet_01.jpg" width="100"></td>
+                <td>€ 1.500,00</td>
+            </tr>
+            <tr>
+                <td rowspan="2">Desconto</td>
+                <td colspan="2">CUPOM</td>
+                <td colspan="2">€ 250,00</td>
+            </tr>
+            <tr>
+                <td colspan="2">CUPOM</td>
+                <td colspan="2">€ 250,00</td>
+            </tr>
+            <tr>
+                <th colspan="4">TOTAL</th>
+                <th>€ 3.000,00</th>
+            </tr>
+        </table>
+
+        <h2>Login</h2>
+        <form action="#">
+
+            Login<br>
+            <input type="text" name="login">
+            <br>
+            Senha: <br>
+            <input type="password" name="password">
+            <br>
+            <input type="button" value="logar">
+
+        </form>
+
+        <form>
+            <h2>Cadastre-se</h2>
+            Login:<br>
+            <input type="text" name="login">
+            <br>
+            Sexo: <br>
+            <input type="radio" name="genre" value="M">Masculino<br><br>
+            <input type="radio" name="genre" value="F">Feminino<br><br>
+            <br>
+            Interesses:<br>
+            <input type="checkbox" name="interesses1"> Futebol<br>
+            <input type="checkbox" name="interesses"> Cursos<br>
+            <input type="checkbox" name="interesses"> Moda<br>
+            
+            Estado<br>
+            <select name="estado">
+                <option value="sp">SP</option>
+                <option value="mg">MG</option>
+                <option value="sp">RJ</option>
+                <option value="rj">RS</option>
+                <option value="ce">CE</option>
+                <option value="ms">MS</option>
+            </select>
+            <br>
+            Observações: <br>
+            <textarea>
+
+            </textarea><br>
+
+            <input type="submit" value="cadastrar">
+        </form>
+
+        <h2>Caracteres especiais</h2>
+        <p>
+            <!--entities HTML-->
+            <!-- w3schools-->
+            <a href="https://www.w3schools.com/html/html_entities.asp">w3Schools - HTML Entities</a>
+            <br>
+            home &nbsp&nbsp&nbsp - Quem somos - contacto
+        
+        </p>
+    </body>
+</html>
